@@ -44,17 +44,21 @@ print(animals)
 {: .output}
 
 ~~~
+print("Start for loop\n") #\n adds a new line
 for creature in animals:
     print(creature)
+print("\nExit for loop")
 ~~~
 {: .language-python}
 
 ~~~
+Start for loop
 lion
 tiger
 crocodile
 vulture
 hippo
+Exit for loop
 ~~~
 {: .output}
 
